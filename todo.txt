@@ -1,0 +1,6 @@
+
+- Portal Gun places portals
+- Portal object for both blue and orange
+- Portals are interactable
+- Portals, on interact, teleport player to (some place)
+

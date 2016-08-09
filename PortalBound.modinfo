@@ -1,0 +1,11 @@
+{
+	"name": "Portal Bound",
+	"version": "1.0",
+	"path": ".",
+	"dependencies": [],
+	"metadata": {
+		"author": "The Temportalist",
+		"version": "0.0.1",
+		"ddescription": "A mod which brings Portals to Starbound."
+	}
+}

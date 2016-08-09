@@ -1,0 +1,55 @@
+{
+  "objectName": "portal",
+  "description": "A magic of science which moves you between places in space.",
+  "shortdescription": "Magic Space Thing",
+  "subtitle": "Moves the player and items",
+
+  "colonyTags": ["misc"],
+  "printable": false,
+  "price": 0,
+  "rarity": "Rare",
+  "race": "generic",
+
+  "category" : "teleporter",
+
+  "inventoryIcon": "icon.png",
+  "orientations": [
+    {
+      "image" : "portal_blue_floor.png",
+      "imagePosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [1, 0] ],
+      "fgAnchors" : [ [0, -1], [1, -1] ],
+
+      "direction" : "right"
+    },
+    {
+      "image" : "portal_blue_ceil.png",
+      "imagePosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [1, 0] ],
+      "fgAnchors" : [ [0, 1], [1, 1] ],
+
+      "direction" : "right"
+    },
+    {
+      "image" : "portal_blue_left.png",
+      "imagePosition" : [0, -6],
+
+      "spaces" : [ [0, 0], [0, 1], [0, 2], [0, 3] ],
+      "fgAnchors" : [ [-1, 0], [-1, 1], [-1, 2], [-1, 3] ],
+
+      "direction" : "right"
+    },
+    {
+      "image" : "portal_blue_right.png",
+      "imagePosition" : [0, -6],
+
+      "spaces" : [ [0, 0], [0, 1], [0, 2], [0, 3] ],
+      "fgAnchors" : [ [1, 0], [1, 1], [1, 2], [1, 3] ],
+
+      "direction" : "right"
+    }
+  ]
+
+}
